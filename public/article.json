@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Article 1",
+    "content": "The ability to type quickly and accurately is an increasingly valuable skill in today's digital world. Whether you're writing emails, creating documents, coding, or just chatting online, typing efficiency can significantly impact your productivity. Touch typing, the practice of typing without looking at the keyboard, allows users to focus on the screen rather than hunting for keys. Many studies suggest that regular practice with typing games and exercises can dramatically improve typing speed and accuracy over time. The most common metric for measuring typing speed is words per minute (WPM), which typically assumes an average word length of five characters, including spaces. Professional typists often achieve speeds of 65 to 75 WPM, while the average person types at about 40 WPM. The world record for typing speed is over 200 WPM, achieved through a combination of natural talent, specialized keyboards, and years of dedicated practice. Beyond raw speed, accuracy is equally important; even the fastest typist becomes inefficient if they must constantly correct errors. Modern typing techniques emphasize proper posture, hand positioning, and finger movement patterns to maximize both speed and accuracy while minimizing the risk of repetitive strain injuries. As technology continues to evolve, the fundamentals of efficient typing remain relevant across different devices and interfaces. Many schools now incorporate typing education into their curriculum, recognizing that digital literacy includes the ability to input text efficiently. Whether you're a beginner looking to move beyond two-finger typing or an experienced typist aiming to break through a plateau, consistent practice with immediate feedback remains the most effective approach to improvement."
+  },
+  {
+    "id": 2,
+    "title": "Article 2",
+    "content": "Oscar-winning actor Gene Hackman died of natural causes about a week after his wife Betsy Arakawa, who died after contracting a rare virus, a New Mexico medical investigator has said.\n\nHackman, 95, died at his Santa Fe home from coronary artery disease, with advanced Alzheimer's disease a contributing factor.\n\nMs Arakawa, 65, died in the same house from hantavirus pulmonary syndrome (HPS), a respiratory illness caused by exposure to infected rodents. Her cause of death was listed as natural.\n\nAuthorities believe she passed away about seven days before her husband, to whom she had been married for more than 30 years. Her cause of death was listed as natural. In a wide-ranging career, Hackman won two Academy Awards for The French Connection and Unforgiven."
+  },
+  {
+    "id": 3,
+    "title": "Article 3",
+    "content": "Artificial intelligence has rapidly evolved from a scientific curiosity to a powerful tool that's reshaping our world. Machine learning algorithms now power everything from recommendation systems to autonomous vehicles. Deep learning networks can recognize patterns in data with superhuman accuracy. Natural language models can engage in sophisticated conversations and generate creative content. Computer vision systems can identify objects and faces in images better than humans. AI is being deployed across industries like healthcare, finance, manufacturing, and transportation. It's helping doctors diagnose diseases, traders predict market movements, factories optimize production, and cars navigate city streets. The technology raises important questions about automation, privacy, bias, and control. As AI capabilities expand, society must thoughtfully consider how to harness its benefits while mitigating potential risks. The future of AI holds both exciting possibilities and serious challenges that we'll need to address."
+  },
+  {
+    "id": 4,
+    "title": "Article 4",
+    "content": "Climate change poses an unprecedented threat to human civilization and natural ecosystems. Rising global temperatures are driving more extreme weather events, from devastating hurricanes to prolonged droughts. Melting polar ice caps are causing sea levels to rise, threatening coastal communities worldwide. Shifting precipitation patterns are disrupting agriculture and food production. Ocean acidification is damaging marine ecosystems and coral reefs. Species are going extinct at alarming rates as their habitats change faster than they can adapt. While the challenges are immense, solutions exist. Renewable energy technology continues to improve and become more affordable. Electric vehicles are gaining mainstream adoption. More efficient buildings and industrial processes can reduce emissions. Natural climate solutions like reforestation can help remove carbon from the atmosphere. But time is running short - scientists warn that dramatic action this decade is crucial to avoid the worst impacts of climate change."
+  },
+  {
+    "id": 5,
+    "title": "Article 5",
+    "content": "The human brain is perhaps the most complex structure in the known universe. With roughly 86 billion neurons forming trillions of connections, it gives rise to consciousness, thought, emotion, and behavior. Neuroscience has made remarkable progress in understanding how different brain regions contribute to various mental functions. Modern imaging techniques allow researchers to observe neural activity in real time. Studies of brain damage and development provide insights into how memories form and skills are learned. Research into neuroplasticity shows how the brain can rewire itself and adapt. Investigations of mental illness reveal how brain chemistry affects mood and cognition. Yet many mysteries remain about how this intricate organ produces the rich experience of being human. Questions about the nature of consciousness, free will, and personal identity continue to challenge scientists and philosophers alike."
+  },
+  {
+    "id": 6,
+    "title": "Article 6",
+    "content": "Space exploration is entering a new era. Private companies like SpaceX and Blue Origin are revolutionizing rocket technology and reducing launch costs. Mars missions are revealing secrets of the red planet, with scientists searching for signs of ancient life. Space telescopes capture spectacular images of distant galaxies, helping us understand the universe's origins. The International Space Station continues vital scientific experiments. Lunar exploration programs are gaining renewed attention as nations race to establish moon bases. Asteroid mining could provide rare resources for Earth. Space tourism is becoming a reality, allowing ordinary people to experience weightlessness. As technology advances, humanity's footprint in the cosmos continues to expand."
+  },
+  {
+    "id": 7,
+    "title": "Article 7",
+    "content": "Quantum computing is moving from theory to practical applications. Quantum bits can exist in multiple states simultaneously, enabling computational power beyond classical computers. Tech giants like Google and IBM are competing to develop quantum processors. Quantum supremacy has been demonstrated for specific problems. Quantum communication promises unbreakable encryption. Quantum sensing enables ultra-precise measurements. Quantum simulation aids in developing new materials and drugs. While technical challenges remain, the quantum revolution is already transforming the future of computation."
+  },
+  {
+    "id": 8,
+    "title": "Article 8",
+    "content": "Biotechnology is reshaping healthcare. Gene editing tools like CRISPR make precise DNA modifications possible. Stem cell therapies open new paths for regenerative medicine. Personalized medicine tailors treatments based on patient genomes. Immunotherapy brings breakthroughs in cancer treatment. Bio-3D printing can produce tissues and organs. Microbiome research reveals the importance of gut bacteria for health. Neurotechnology helps paralyzed patients regain mobility. As technology advances, more diseases will find cures."
+  },
+  {
+    "id": 9,
+    "title": "Article 9",
+    "content": "Blockchain technology extends beyond cryptocurrencies. Smart contracts enable automated transactions and agreements. Decentralized finance is transforming traditional banking. Non-fungible tokens create new markets for digital art and collectibles. Supply chain tracking improves transparency and efficiency. Digital identity management enhances privacy protection. Decentralized autonomous organizations demonstrate new governance models. Metaverse projects use blockchain to establish digital property rights. This technology is reshaping how multiple industries operate."
+  },
+  {
+    "id": 10,
+    "title": "Article 10",
+    "content": "Sustainable development has become a global focus. Clean energy technologies are rapidly evolving, with solar and wind costs continuously declining. Circular economy models reduce waste and pollution. Smart cities optimize resource use and quality of life. Lab-grown meat provides eco-friendly protein sources. Ocean cleanup initiatives combat plastic pollution. Carbon capture technologies help mitigate climate change. Biodiversity conservation ensures ecosystem health. Green buildings reduce environmental impact. Sustainable development requires innovative solutions and global cooperation."
+  }
+]
