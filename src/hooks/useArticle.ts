@@ -6,16 +6,16 @@ interface Article {
   content: string;
 }
 
-function useArticle() {
+function useArticle(difficulty: 'easy' | 'hard') {
   const [articles, setArticles] = useState<Article[]>([]);
 
   useEffect(() => {
     (async () => {
-      const response = await fetch('/article.json');
+      const response = await fetch(`/${difficulty}-article.json`);
       const data = await response.json();
       setArticles(data);
     })();
-  }, []);
+  }, [difficulty]);
 
   return articles;
 }

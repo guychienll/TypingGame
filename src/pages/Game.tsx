@@ -8,6 +8,7 @@ import useTimer from '../hooks/useTimer';
 import { calculateAccuracy, calculateTypingStats, calculateWPM } from '../utils';
 
 function Game() {
+  const difficulty = sessionStorage.getItem('difficulty') as 'easy' | 'hard';
   const [article, setArticle] = useState<Article | null>(null);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [typedText, setTypedText] = useState<string>('');
@@ -15,7 +16,7 @@ function Game() {
 
   const navigate = useNavigate();
   const inputRef = useRef<HTMLInputElement>(null);
-  const articles = useArticle();
+  const articles = useArticle(difficulty);
 
   const gameDuration = useMemo(() => {
     const duration = sessionStorage.getItem('gameDuration');
