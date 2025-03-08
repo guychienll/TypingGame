@@ -1,9 +1,13 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from 'react';
 
 const useTimer = (initialTime: number) => {
   const [timeLeft, setTimeLeft] = useState<number>(initialTime);
   const [started, setStarted] = useState<boolean>(false);
   const [finished, setFinished] = useState<boolean>(false);
+
+  useEffect(() => {
+    setTimeLeft(initialTime);
+  }, [initialTime]);
 
   useEffect(() => {
     if (!started || finished) return;
@@ -22,13 +26,13 @@ const useTimer = (initialTime: number) => {
     return () => clearInterval(timer);
   }, [started, finished]);
 
-  const reset = () => {
+  const reset = useCallback(() => {
     setTimeLeft(initialTime);
     setStarted(true);
     setFinished(false);
-  };
+  }, [initialTime]);
 
-  return { timeLeft, reset, started, finished };
+  return { timeLeft, reset, started, finished, setStarted, setFinished };
 };
 
 export default useTimer;

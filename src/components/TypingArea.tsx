@@ -1,11 +1,11 @@
-import React from "react";
-import { Article } from "../hooks/useArticle";
+import React from 'react';
+import { Article } from '../hooks/useArticle';
 
 const CHARACTER_STYLE = {
-  correct: "text-green-400 text-3xl tracking-wide font-gemunu-libre",
-  incorrect: "text-red-400 text-3xl tracking-wide font-gemunu-libre",
-  current: "text-gray-900 bg-primary-300 text-3xl tracking-wide font-gemunu-libre",
-  default: "text-gray-500 text-3xl tracking-wide font-gemunu-libre",
+  correct: 'text-green-400 text-3xl tracking-wide font-gemunu-libre',
+  incorrect: 'text-red-400 text-3xl tracking-wide font-gemunu-libre',
+  current: 'text-gray-900 bg-primary-300 text-3xl tracking-wide font-gemunu-libre',
+  default: 'text-gray-500 text-3xl tracking-wide font-gemunu-libre',
 };
 
 interface TypingAreaProps {
@@ -15,12 +15,7 @@ interface TypingAreaProps {
   onFocus: () => void;
 }
 
-const TypingArea: React.FC<TypingAreaProps> = ({
-  article,
-  currentIndex,
-  typedText,
-  onFocus,
-}) => {
+const TypingArea: React.FC<TypingAreaProps> = ({ article, currentIndex, typedText, onFocus }) => {
   const getCharacterStyle = (char: string, index: number) => {
     if (index < currentIndex) {
       const isCorrect = typedText[index] === char;
@@ -39,13 +34,10 @@ const TypingArea: React.FC<TypingAreaProps> = ({
   );
 
   return (
-    <div
-      className="card-neobrutalism bg-white p-4 mb-6 overflow-auto max-h-60"
-      onClick={onFocus}
-    >
-      {article?.content.split("").map(renderCharacter)}
+    <div className="card-neobrutalism bg-white p-4 mb-6 overflow-auto max-h-60" onClick={onFocus}>
+      {article?.content.split('').map(renderCharacter)}
     </div>
   );
 };
 
-export default TypingArea; 
+export default TypingArea;

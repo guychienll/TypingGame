@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 interface Article {
   id: number;
@@ -11,7 +11,7 @@ function useArticle() {
 
   useEffect(() => {
     (async () => {
-      const response = await fetch("/article.json");
+      const response = await fetch('/article.json');
       const data = await response.json();
       setArticles(data);
     })();

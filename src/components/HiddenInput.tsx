@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 interface HiddenInputProps {
   inputRef: React.RefObject<HTMLInputElement | null>;
@@ -7,12 +7,7 @@ interface HiddenInputProps {
   disabled: boolean;
 }
 
-const HiddenInput: React.FC<HiddenInputProps> = ({
-  inputRef,
-  typedText,
-  onInput,
-  disabled,
-}) => (
+const HiddenInput: React.FC<HiddenInputProps> = ({ inputRef, typedText, onInput, disabled }) => (
   <div className="mt-4">
     <input
       ref={inputRef}
@@ -26,4 +21,4 @@ const HiddenInput: React.FC<HiddenInputProps> = ({
   </div>
 );
 
-export default HiddenInput; 
+export default HiddenInput;
